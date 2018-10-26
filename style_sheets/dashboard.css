@@ -13,7 +13,6 @@ h2 {
     color: rgb(15, 50, 146);
 }
 
-iframe {
-    padding-left: 2rem;
-    text-align: center;
+#row1 {
+    margin-left: 2rem;
 }
