@@ -6,16 +6,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Relaxation</title>
+    <title>CS 161 Home</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <link href="style_sheets/styles.css" rel="stylesheet">
+    <link href="../style_sheets/CS160.css" rel="stylesheet">
   </head>
 
   <body>
 
+    <!--Navigation bar-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="https://youtu.be/dQw4w9WgXcQ">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,34 +26,48 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="GTKM/index.html">About Me</a>
+            <a class="nav-link" href="../GTKM/index.html">About Me</a>
           </li>
+          <!--Dropdown menu for Courses-->
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CS Courses</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="../CS160/index.html">CS 160 at COCC</a>
+                <a class="dropdown-item" href="../CS161/index.html">CS 161 at COCC</a>
+              </div>
+            </li>
+          <!-- /Dropdown menu-->
+          <!--Dropdown menu for Homework-->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Homework</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="homework/book_assignments/index.html">Book Assignments</a>
-              <a class="dropdown-item" href="homework/scratch_projects/index.html">Scratch Projects</a>
-              <a class="dropdown-item" href="homework/python_projects/index.html">Python Projects</a>
+              <a class="dropdown-item" href="homework/book_assignments/index.html">BlueJ Assignments</a>
             </div>
           </li>
-          <li class="nav-item">
-             <a class="nav-link" href="relax.html">Relaxation</a>
-          </li>
+          <!-- /Dropdown menu-->
         </ul>
       </div>
-    </nav>
+    </nav><!-- /Navigation bar-->
+
+    <!-- Jumbotron. Main focus of main page. Quick link to "About Me" page -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Welcome to Seth Cochrane's CS 161 Landing!</h1>
+          <h2>This page is a display of my work in Computer Science 161! This course was taught by Peter Casey at Central Oregon Community College.</h2>
+          <p><a class="btn btn-primary btn-lg" href="homework/book_assignments/index.html" role="button">Homework &raquo;</a></p>
+        </div>
+      </div>
+    <!-- /Jumbotron-->
 
     <main role="main">
-        <div class="container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/5dsGWM5XGdg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/jIIEwTpSBAw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+      
     </main>
+
     <footer class="container">
-      <p>&copy; Cochrane 2018</p>
+      <p>&copy; Cochrane 2019</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
